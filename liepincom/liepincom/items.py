@@ -5,8 +5,13 @@
 
 import scrapy
 
-
 class LiepincomItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    position = scrapy.Field()
+    city = scrapy.Field()
+    salary = scrapy.Field()
+    year = scrapy.Field()
+    edu = scrapy.Field()
+    company = scrapy.Field()
+    company_size = scrapy.Field()
